@@ -1,0 +1,10 @@
+/*
+* Hide invite button
+*/
+.inviteButton_f37cb1 {
+  display: none !important;
+}
+
+.guildDropdown_f37cb1 {
+  width: 100% !important;
+}

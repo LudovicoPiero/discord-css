@@ -1,0 +1,19 @@
+/*
+* Hide Avatar Decoration
+* And other profiles effects
+*/
+[class*="avatarDecoration"] {
+  display: none;
+}
+
+[class^="profileEffects"] {
+  display: none;
+}
+
+.avatarDecoration__44b0c {
+  display: none;
+}
+
+.container__4bbc6 {
+  display: none !important;
+}

@@ -61,6 +61,11 @@ section[class^="panels_"] {
   }
 }
 
+/* New Group DM */
+.visual-refresh .iconWrapper__9293f {
+  display: none !important;
+}
+
 /* Remove top bar, keep inbox icon */
 .visual-refresh {
 

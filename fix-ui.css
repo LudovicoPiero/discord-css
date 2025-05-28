@@ -64,11 +64,6 @@ section[class^="panels_"] {
 /* Remove top bar, keep inbox icon */
 .visual-refresh {
 
-  /* Hide Group DM */
-  .clickable__9293f .icon__9293f {
-    display: none !important;
-  }
-
   div[class^="subtitleContainer_"],
   main[class^="container__"] section[class*="container__"] {
     position-anchor: --vr-header-trailing;
@@ -127,6 +122,7 @@ section[class^="panels_"] {
     }
 
     /* fix discord icon glued to the window's border */
+    /* can't use generic selector because there's a more than 1 with just the id being different */
     .tutorialContainer__1f388 {
       padding-top: 15px;
     }
